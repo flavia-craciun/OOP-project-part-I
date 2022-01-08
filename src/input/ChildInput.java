@@ -5,8 +5,8 @@ import enums.Cities;
 
 import java.util.List;
 
-public class ChildInput {
-    private int id; // make final
+public final class ChildInput {
+    private int id;
     private String lastName;
     private String firstName;
     private int age;
@@ -18,7 +18,7 @@ public class ChildInput {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(final int id) {
         this.id = id;
     }
 
@@ -26,7 +26,7 @@ public class ChildInput {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
+    public void setLastName(final String lastName) {
         this.lastName = lastName;
     }
 
@@ -34,7 +34,7 @@ public class ChildInput {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
+    public void setFirstName(final String firstName) {
         this.firstName = firstName;
     }
 
@@ -42,7 +42,7 @@ public class ChildInput {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(final int age) {
         this.age = age;
     }
 
@@ -50,7 +50,7 @@ public class ChildInput {
         return city;
     }
 
-    public void setCity(Cities city) {
+    public void setCity(final Cities city) {
         this.city = city;
     }
 
@@ -58,7 +58,7 @@ public class ChildInput {
         return niceScore;
     }
 
-    public void setNiceScore(Double niceScore) {
+    public void setNiceScore(final Double niceScore) {
         this.niceScore = niceScore;
     }
 
@@ -66,7 +66,7 @@ public class ChildInput {
         return giftsPreferences;
     }
 
-    public void setGiftsPreferences(List<Category> giftsPreference) {
+    public void setGiftsPreferences(final List<Category> giftsPreferences) {
         this.giftsPreferences = giftsPreferences;
     }
 }

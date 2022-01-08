@@ -4,7 +4,7 @@ import enums.Cities;
 
 import java.util.List;
 
-public class InitialData {
+public final class InitialData {
     private List<ChildInput> children;
     private List<Gifts> santaGiftsList;
     private List<Cities> santaCitiesList;
@@ -13,7 +13,7 @@ public class InitialData {
         return children;
     }
 
-    public void setChildren(List<ChildInput> children) {
+    public void setChildren(final List<ChildInput> children) {
         this.children = children;
     }
 
@@ -21,7 +21,7 @@ public class InitialData {
         return santaGiftsList;
     }
 
-    public void setSantaGiftsList(List<Gifts> santaGiftsList) {
+    public void setSantaGiftsList(final List<Gifts> santaGiftsList) {
         this.santaGiftsList = santaGiftsList;
     }
 
@@ -29,7 +29,7 @@ public class InitialData {
         return santaCitiesList;
     }
 
-    public void setSantaCitiesList(List<Cities> santaCitiesList) {
+    public void setSantaCitiesList(final List<Cities> santaCitiesList) {
         this.santaCitiesList = santaCitiesList;
     }
 }

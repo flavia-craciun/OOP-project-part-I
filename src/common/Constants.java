@@ -13,6 +13,10 @@ public final class Constants {
 
     // added by me
     public static final String INPUT_PATH = "tests/test";
+    public static final Double BABY_AVERAGE_SCORE = 10.0;
+
+
+
 
 
     private Constants() {

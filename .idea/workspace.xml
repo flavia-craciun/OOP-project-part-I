@@ -2,11 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="111624b8-efe4-489e-b9ba-0b34de0ee868" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/checker/checkstyle-8.36.2-all.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/checker/checkstyle.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect1/checker/poo_checks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/Child$Baby.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/Child$Kid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/Child$Teen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/Child$YoungAdult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/common/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/input/AnnualChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/input/AnnualChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/input/ChildInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/input/ChildInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/input/ChildUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/input/ChildUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/input/Gifts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/input/Gifts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/input/InitialData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/input/InitialData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/input/InputData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/input/InputData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nicelist/Child.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/AnnualChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/AnnualChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/ChildInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/ChildInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/ChildUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/ChildUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/Gifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/Gifts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/InitialData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/InitialData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/InputData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/InputData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,5 +101,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Main.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
