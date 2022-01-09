@@ -3,7 +3,7 @@ package nicelist;
 import enums.Category;
 import enums.Cities;
 import input.ChildInput;
-import input.Gifts;
+import gifts.Gifts;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -30,63 +30,77 @@ public abstract class Child {
         niceScoreHistory.add(child.getNiceScore());
     }
 
-    public int getId() {
+    public Child(final Child child) {
+        this.id = child.getId();
+        this.age = child.getAge();
+        this.firstName = child.getFirstName();
+        this.lastName = child.getLastName();
+        this.city = child.getCity();
+        this.giftsPreferences.addAll(child.getGiftsPreferences());
+        niceScoreHistory.addAll(child.getNiceScoreHistory());
+    }
+
+    public final int getId() {
         return id;
     }
 
-    public String getLastName() {
+    public final String getLastName() {
         return lastName;
     }
 
-    public String getFirstName() {
+    public final String getFirstName() {
         return firstName;
     }
 
-    public int getAge() {
+    public final int getAge() {
         return age;
     }
 
-    public Cities getCity() {
+    public final void setAge(final int age) {
+        this.age = age;
+    }
+
+    public final Cities getCity() {
         return city;
     }
 
-    public List<Category> getGiftsPreferences() {
+    public final List<Category> getGiftsPreferences() {
         return giftsPreferences;
     }
 
-    public void setGiftsPreferences(List<Category> giftsPreferences) {
+    public final void setGiftsPreferences(final List<Category> giftsPreferences) {
         this.giftsPreferences = giftsPreferences;
     }
 
-    public Double getAverageScore() {
+    public final Double getAverageScore() {
         return averageScore;
     }
 
-    public void setAverageScore(Double averageScore) {
+    public final void setAverageScore(final Double averageScore) {
         this.averageScore = averageScore;
     }
 
-    public List<Double> getNiceScoreHistory() {
+    public final List<Double> getNiceScoreHistory() {
         return niceScoreHistory;
     }
 
-    public void setNiceScoreHistory(List<Double> niceScoreHistory) {
+    public final void setNiceScoreHistory(final List<Double> niceScoreHistory) {
         this.niceScoreHistory = niceScoreHistory;
     }
 
-    public Double getAssignedBudget() {
+    public final Double getAssignedBudget() {
         return assignedBudget;
     }
 
-    public void setAssignedBudget(Double assignedBudget) {
+    public final void setAssignedBudget(final Double assignedBudget) {
         this.assignedBudget = assignedBudget;
     }
 
-    public List<Gifts> getReceivedGifts() {
+    public final List<Gifts> getReceivedGifts() {
         return receivedGifts;
     }
 
-    public void setReceivedGifts(List<Gifts> receivedGifts) {
+    public final void setReceivedGifts(final List<Gifts> receivedGifts) {
         this.receivedGifts = receivedGifts;
     }
 
