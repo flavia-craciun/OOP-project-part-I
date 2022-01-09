@@ -21,10 +21,6 @@ public final class ChildUpdate {
         return niceScore;
     }
 
-    public void setNiceScore(final Double niceScore) {
-        this.niceScore = niceScore;
-    }
-
     public List<Category> getGiftsPreferences() {
         return giftsPreferences;
     }

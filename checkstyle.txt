@@ -1,6 +1,6 @@
 Starting audit...
 [ERROR] /Users/flaviacraciun/Desktop/Facultate II/POO/teme/etapa 1 proiect/proiect-OOP/./src/nicelist/Child.java:107:5: Missing a Javadoc comment. [MissingJavadocMethod]
-[ERROR] /Users/flaviacraciun/Desktop/Facultate II/POO/teme/etapa 1 proiect/proiect-OOP/./src/nicelist/NiceList.java:19:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] /Users/flaviacraciun/Desktop/Facultate II/POO/teme/etapa 1 proiect/proiect-OOP/./src/nicelist/NiceList.java:23:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] /Users/flaviacraciun/Desktop/Facultate II/POO/teme/etapa 1 proiect/proiect-OOP/./src/nicelist/ages/AgeRangeFactory.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] /Users/flaviacraciun/Desktop/Facultate II/POO/teme/etapa 1 proiect/proiect-OOP/./src/nicelist/ages/AgeRangeFactory.java:11:9: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] /Users/flaviacraciun/Desktop/Facultate II/POO/teme/etapa 1 proiect/proiect-OOP/./src/nicelist/ages/AgeRangeFactory.java:20:9: Missing a Javadoc comment. [MissingJavadocMethod]
@@ -14,6 +14,5 @@ Starting audit...
 [ERROR] /Users/flaviacraciun/Desktop/Facultate II/POO/teme/etapa 1 proiect/proiect-OOP/./src/nicelist/rounds/YearlyRound.java:40:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] /Users/flaviacraciun/Desktop/Facultate II/POO/teme/etapa 1 proiect/proiect-OOP/./src/nicelist/rounds/YearlyRound.java:54:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] /Users/flaviacraciun/Desktop/Facultate II/POO/teme/etapa 1 proiect/proiect-OOP/./src/nicelist/rounds/YearlyRound.java:66:5: Missing a Javadoc comment. [MissingJavadocMethod]
-[ERROR] /Users/flaviacraciun/Desktop/Facultate II/POO/teme/etapa 1 proiect/proiect-OOP/./src/gifts/DeliverPresents.java:4:1: Redundant import from the same package - gifts.Gifts. [RedundantImport]
 Audit done.
-Checkstyle ends with 16 errors.
+Checkstyle ends with 15 errors.

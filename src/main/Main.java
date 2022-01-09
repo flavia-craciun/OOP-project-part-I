@@ -4,13 +4,9 @@ import checker.Checker;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import common.Constants;
-import input.AnnualChange;
 import input.InputData;
 import lombok.SneakyThrows;
-import nicelist.rounds.AnnualChildren;
 import nicelist.NiceList;
-import nicelist.rounds.Round0;
-import nicelist.rounds.YearlyRound;
 
 
 import java.io.File;
@@ -50,42 +46,8 @@ public final class Main {
             InputData input = objectMapper.readValue(inputFile, InputData.class);
 
             // Entry point to the program
-
-            // Final list of nice children for every year
             NiceList niceList = new NiceList();
-
-            // Every year a new list of nice children
-            AnnualChildren niceChildrenList = new Round0();
-            ((Round0) niceChildrenList).makeNiceList(input.getInitialData().getChildren());
-
-            // Assign budget for each child
-            ((Round0) niceChildrenList).receiveGifts(input);
-
-            //  Add the list of nice children to the nice list
-            niceList.addAnnualNiceChildren(niceChildrenList);
-
-            // Update the list of nice children annually
-            for (int year = 0; year < input.getNumberOfYears(); year++) {
-                AnnualChildren newNiceChildrenList = new YearlyRound();
-                AnnualChange change = input.getAnnualChanges().get(year);
-
-                // Update the already existing children's ages, nice score history
-                // and gifts preferences
-                ((YearlyRound) newNiceChildrenList).makeNiceList(niceChildrenList
-                        .getChildren(), change);
-
-                // Adding the new children to the list
-                AnnualChildren newChildrenList = new Round0();
-                ((Round0) newChildrenList).makeNiceList(input.getAnnualChanges().
-                        get(year).getNewChildren());
-                newNiceChildrenList.getChildren().addAll(newChildrenList.getChildren());
-
-                // Assign the budget to each child
-                ((YearlyRound) newNiceChildrenList).receiveGifts(year, input);
-
-                niceList.addAnnualNiceChildren(newNiceChildrenList);
-                niceChildrenList = newNiceChildrenList;
-            }
+            niceList.makeList(input);
 
             //  Writing the results in the output files
             File outputFile = new File(Constants.OUTPUT_PATH + testNumber

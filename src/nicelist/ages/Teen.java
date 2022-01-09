@@ -3,7 +3,7 @@ package nicelist.ages;
 import input.ChildInput;
 import nicelist.Child;
 
-public final class Teen extends Child {
+public final class Teen extends Child  {
     public Teen(final ChildInput child) {
         super(child);
     }

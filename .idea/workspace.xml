@@ -2,56 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="111624b8-efe4-489e-b9ba-0b34de0ee868" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/etapa1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/proiect-OOP/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/common/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/gifts/DeliverPresents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/gifts/DeliverPresents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/input/AnnualChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/input/AnnualChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/input/ChildInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/input/ChildInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/input/ChildUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/input/ChildUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/input/InitialData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/input/InitialData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/nicelist/AgeRangeFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/nicelist/AgeRangeFactory$AgeRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/nicelist/AgeRangeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/nicelist/Baby.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/nicelist/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/nicelist/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/nicelist/Kid.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/nicelist/NiceList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiect-OOP/nicelist/NiceList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/nicelist/Teen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiect-OOP/nicelist/YoungAdult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_11.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_11.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_12.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_12.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_13.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_14.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_14.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_15.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_15.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_16.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_16.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_17.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_17.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_18.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_18.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_19.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_19.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_20.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_20.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_21.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_22.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_22.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_23.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_23.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_24.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_24.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_25.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_25.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_6.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_8.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/out_9.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/out_9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test25.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test25.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gifts/DeliverPresents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gifts/DeliverPresents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input/Gifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gifts/Gifts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/AnnualChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/AnnualChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/ChildInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/ChildInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/ChildUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/ChildUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input/InitialData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input/InitialData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nicelist/AgeRangeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nicelist/ages/AgeRangeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nicelist/Baby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nicelist/ages/Baby.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nicelist/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nicelist/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nicelist/Kid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nicelist/ages/Kid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nicelist/NiceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nicelist/NiceList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nicelist/Teen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nicelist/ages/Teen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nicelist/YoungAdult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nicelist/ages/YoungAdult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nicelist/ages/Teen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nicelist/ages/Teen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,12 +46,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="input" />
     </key>
@@ -128,16 +101,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/nicelist/rounds/YearlyRound.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
