@@ -1,19 +1,22 @@
-package nicelist;
+package nicelist.ages;
 
 import input.ChildInput;
-
-import java.util.stream.Collectors;
+import nicelist.Child;
 
 public final class Kid extends Child {
     public Kid(final ChildInput child) {
         super(child);
     }
 
+    public Kid(final Child child) {
+        super(child);
+    }
+
     @Override
     public void calculateAverageScore() {
         Double totalNiceScore = getNiceScoreHistory().stream()
-                .collect(Collectors.summingDouble(Double::doubleValue));
-        Double averageScore = totalNiceScore / getNiceScoreHistory().size();
+                .mapToDouble(Double::doubleValue).sum();
+        Double averageScore = totalNiceScore / (double) getNiceScoreHistory().size();
         super.setAverageScore(averageScore);
     }
 }

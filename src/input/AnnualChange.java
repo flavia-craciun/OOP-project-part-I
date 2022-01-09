@@ -1,5 +1,7 @@
 package input;
 
+import gifts.Gifts;
+
 import java.util.List;
 
 public final class AnnualChange {

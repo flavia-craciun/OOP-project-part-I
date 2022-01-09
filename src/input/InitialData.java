@@ -1,6 +1,7 @@
 package input;
 
 import enums.Cities;
+import gifts.Gifts;
 
 import java.util.List;
 

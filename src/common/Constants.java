@@ -14,10 +14,9 @@ public final class Constants {
     // added by me
     public static final String INPUT_PATH = "tests/test";
     public static final Double BABY_AVERAGE_SCORE = 10.0;
-
-
-
-
+    public static final int BABY_AGE_LIMIT = 5;
+    public static final int KID_AGE_LIMIT = 12;
+    public static final int TEEN_AGE_LIMIT = 18;
 
     private Constants() {
         //constructor for checkstyle

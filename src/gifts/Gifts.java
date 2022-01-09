@@ -1,4 +1,4 @@
-package input;
+package gifts;
 
 import enums.Category;
 
